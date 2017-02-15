@@ -210,6 +210,19 @@ hr.small {
     opacity: 0.8;
 }
 
+.flexbox-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexbox-center {
+    flex-grow: 1;
+    align-self: center;
+}
+
 /* Call to Action */
 
 .call-to-action {
